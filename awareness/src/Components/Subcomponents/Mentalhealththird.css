@@ -1,0 +1,47 @@
+.post {
+  background-color: #bdcbd8;
+  width: 476px;
+  margin: 0px 25px 40px 0px;
+}
+
+.photo {
+  width: 354px;
+  height: 225px;
+  margin: 27px 83px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.photo:hover {
+  backdrop-filter: blur(10px);
+  filter: blur(4px);
+  transition: 0.5s ease;
+}
+.postinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postDesc {
+  font-size: 18px;
+  font-family: Cedarville cursive;
+  overflow: hidden;
+  line-height: 24px;
+  margin-top: 15px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+
+  color: #36829b;
+  margin: 13px 40px;
+  font-weight: 600;
+}
+.posttitle {
+  align-items: center;
+  margin: -19px 52px;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: Alkatra;
+  color: #7c78b1;
+}

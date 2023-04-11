@@ -1,0 +1,104 @@
+.mentalhealth {
+  /* padding: 30px; */
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #e3cdcd;
+}
+.leftphoto {
+  flex: 6 3;
+  height: 344px;
+  width: 476px;
+  padding: 38px;
+}
+.containertwo {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-color: #eeeeee;
+}
+.right {
+  flex: 7;
+  margin: 0px 130px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 20px;
+  letter-spacing: 0.5px;
+}
+.casesmaincontainer {
+  display: flex;
+  letter-spacing: 0.5px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-color: #efebec;
+}
+.pararight {
+  margin-left: -77px;
+}
+.Casespara {
+  flex: 7;
+  margin: 0px 130px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 20px;
+}
+.casesimg {
+  flex: 6 3;
+  height: 344px;
+  width: 476px;
+  padding: 38px;
+  margin-right: 192px;
+}
+
+.titlecomp {
+  display: flex;
+  justify-content: center;
+  background-color: #efe2df;
+  margin-bottom: 22px;
+}
+.para {
+  font-weight: 300;
+  font-size: 23px;
+  margin: 0px 331px;
+  padding-bottom: 30px;
+}
+
+.list {
+  list-style-type: circle;
+  align-items: center;
+  margin: 0px -211px;
+  padding-bottom: 30px;
+}
+.listitem {
+  font-family: "Alkatra";
+  font-size: 13px;
+  align-items: center;
+  margin: 0px 100px;
+  padding-bottom: 30px;
+}
+.titlefirst {
+  display: flex;
+  align-items: center;
+  margin: 0px 389px;
+  color: #3c3a3a;
+  font-family: Cedarville cursive;
+  font-weight: 700;
+  font-size: 54px;
+  padding-bottom: 10px;
+}
+.titles {
+  display: flex;
+  align-items: center;
+  margin-left: 127px;
+  padding-bottom: 30px;
+  color: #585814;
+}
+.photos {
+  height: 439px;
+  width: 688px;
+  padding: 38px;
+  margin: 0px 446px;
+}

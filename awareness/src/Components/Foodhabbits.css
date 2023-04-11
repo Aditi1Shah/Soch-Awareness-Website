@@ -1,0 +1,43 @@
+.foodhabbits {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #eafdea;
+}
+.singleposttitle {
+  display: flex;
+  align-items: center;
+  margin: 0px 540px;
+  padding-bottom: 30px;
+  color: #3c3a3a;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.singlepostimg {
+  display: flex;
+  align-items: center;
+  margin: 0px 331px;
+  padding-bottom: 30px;
+}
+.singlepostfirsttitle {
+  display: flex;
+  align-items: center;
+  margin: 0px 331px;
+  padding-bottom: 30px;
+}
+.singlepostfirstpara {
+  font-weight: 300;
+  font-size: 23px;
+  margin: 0px 331px;
+  padding-bottom: 30px;
+}
+.singlepostthimg {
+  height: 30%;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  margin: 0px 331px;
+  padding-bottom: 30px;
+}
