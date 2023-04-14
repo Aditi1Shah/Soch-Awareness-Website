@@ -2,7 +2,16 @@
   "name": "awareness",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://0.0.0.0:5000/api/",
+  "proxy": {
+    "": {
+      "target": "http://0.0.0.0:5000",
+      "secure": false
+    },
+    "/api": {
+      "target": "http://0.0.0.0:5000",
+      "secure": false
+    }
+  },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
