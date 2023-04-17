@@ -1,0 +1,81 @@
+.firstcontainer {
+  background-color: rgb(254, 254, 254);
+}
+.mainphoto {
+  width: 100%;
+  height: 611px;
+}
+.maintitle {
+  margin-left: 38%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: Maven Pro;
+  color: #62659d;
+}
+.mainpara {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  font-family: Alkatra;
+}
+.secondcontainer {
+  display: flex;
+  background-color: #fff2f2;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.photostepfirst {
+  height: 370px;
+  width: 684px;
+  margin: 20px;
+}
+.firststepquote {
+  background-color: none;
+}
+.firstquotepara {
+  font-size: 18px;
+  font-family: Cedarville cursive;
+  font-weight: 900;
+}
+.parastepfirst {
+  font-size: 19px;
+  font-family: Alkatra;
+  margin: 20px;
+}
+.secondcontainerfirstdiv {
+  display: flex;
+  flex-direction: column;
+}
+.scnddivfrstdiv {
+  display: flex;
+  flex-direction: column;
+}
+.thirdcontainer {
+  display: flex;
+  background-color: #f2eef4;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+.thirdcontpara {
+  font-size: 19px;
+  font-family: Alkatra;
+  margin: 20px;
+  margin-top: 93px;
+}
+.titlestepfirst {
+  font-family: Maven Pro;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.photostepfirstfourth {
+  height: 470px;
+  width: 684px;
+  margin: 20px;
+  margin-top: 50px;
+}
+.photostepfirstfifth {
+  height: 370px;
+  width: 484px;
+  margin: 20px;
+}

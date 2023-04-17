@@ -1,0 +1,55 @@
+.top {
+  width: 100%;
+  height: 90px;
+  background-color: #ffecfd;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans";
+  font-size: 2.5ch;
+  color: #a7374b;
+}
+.topleft {
+  flex: 3;
+}
+.topright {
+  flex: 3;
+  display: flex;
+  justify-content: right;
+  padding-right: 50px;
+}
+.toplist {
+  display: flex;
+  justify-content: center;
+}
+.topimg {
+  width: 150px;
+  height: 80px;
+  cursor: pointer;
+  padding: 30px;
+}
+.toplisticons {
+  display: flex;
+  font-size: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+.topcenter {
+  flex: 5;
+}
+.toprgtbutton {
+  box-sizing: border-box;
+  background-color: #dfc3da;
+  font-family: "Josefin Sans";
+  height: 50px;
+  width: 120px;
+  color: #a7374b;
+  border-color: #a7374b;
+}
+.loginimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
