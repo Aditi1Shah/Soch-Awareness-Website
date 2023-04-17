@@ -1,7 +1,0 @@
-.posts {
-  display: flex;
-  flex: 3;
-  flex-wrap: wrap;
-  background-color: #bdcbd8;
-  align-items: center;
-}
