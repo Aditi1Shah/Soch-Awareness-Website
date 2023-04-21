@@ -11,6 +11,8 @@ const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 dotenv.config();
 
+var cors = require("cors");
+app.use(cors());
 //when body will come in raw (json form) it will be able to read only when we use express.json()
 app.use(express.json());
 mongoose
