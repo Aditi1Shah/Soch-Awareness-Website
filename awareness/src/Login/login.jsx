@@ -1,6 +1,6 @@
 import { useRef, useContext } from "react";
 import "./login.css";
-import axios from "axios";
+import axios from "../http";
 import { Link, useNavigate } from "react-router-dom";
 import { Context } from "../Context/Context";
 export default function Login() {
