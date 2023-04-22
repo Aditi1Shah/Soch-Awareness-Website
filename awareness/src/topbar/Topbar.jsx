@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./topbar.css";
 import logo from "./images/logo.jpg";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
+import { Context } from "../Context/Context";
 export default function Topbar() {
-  const user = false;
+  const { user, dispatch } = useContext(Context);
+  //const user = false;
   const navigate = useNavigate();
   const handleRegisterClick = (e) => {
     let path = "/register";
@@ -16,10 +18,18 @@ export default function Topbar() {
     navigate(path);
     e.preventDefault();
   };
+  const handleWriteClick = (e) => {
+    let path = "/write";
+    navigate(path);
+    e.preventDefault();
+  };
   const handlehomeclick = (e) => {
     let path = "/";
     navigate(path);
     e.preventDefault(); // Do some stuffs navigate("/next-page");
+  };
+  const handleLogout = () => {
+    dispatch({ type: "LOGOUT" });
   };
   return (
     <div className="top">
@@ -33,9 +43,14 @@ export default function Topbar() {
           </li>
           <li className="toplisticons">What We Do</li>
           <li className="toplisticons">About Us</li>
-          <li className="toplisticons">Write</li>
+          <li className="toplisticons" onClick={handleWriteClick}>
+            Write
+          </li>
           <li className="toplisticons">Blog</li>
           <li className="toplisticons">Contact Us</li>
+          <li className="toplisticons" onClick={handleLogout}>
+            {user && "LOGOUT"}
+          </li>
         </ul>
       </div>
       <div className="topright">

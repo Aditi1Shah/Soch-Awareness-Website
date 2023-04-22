@@ -22,10 +22,10 @@ router.post("/register", async (req, res) => {
     const user = await newUser.save();
     //if everything is good we will send res 200 which stands OK and we will send User in json format at response
     res.header("Access-Control-Allow-Origin", "*");
-    res.status(200).json(user);
+    return res.status(200).json(user);
   } catch (err) {
     res.header("Access-Control-Allow-Origin", "*");
-    res.status(500).json(err);
+    res.status(401).json(err);
   }
 });
 
@@ -35,12 +35,24 @@ router.post("/login", async (req, res) => {
     //if user is present
     const user = await User.findOne({ username: req.body.username });
     //if no user is there
-    !user && res.status(404).json("Wrong Credentials");
+    res.header("Access-Control-Allow-Origin", "*");
+    if (!user) {
+      return res.status(400).json({
+        status: "error",
+        error: "Wrong Credentials",
+      });
+    }
+    /*!user && res.status(402).json("Wrong Credentials");*/
     //if there is user then
     const validated = await bcrypt.compare(req.body.password, user.password);
     //if user has already registered but has entered wrong password :
-    !validated && res.status(404).json("Wrong Credentials");
-
+    /*!validated && res.status(402).json("Wrong Credentials");*/
+    if (!validated) {
+      return res.status(402).json({
+        status: "error",
+        error: "Wrong Credentials",
+      });
+    }
     //if user has registered and has entered correct password then we will send 200
     //as response which means validation is successful
 
@@ -49,9 +61,10 @@ router.post("/login", async (req, res) => {
 
     //we dont want password to reflect as its what user entered so we will display everything else then password
     const { password, ...others } = user._doc;
-    res.status(200).json(others);
+    return res.status(200).json(others);
   } catch (err) {
-    res.status(500).json(err);
+    console.log("here");
+    res.status(500).json("err");
   }
 });
 

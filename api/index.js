@@ -9,12 +9,14 @@ const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
+const path = require("path");
 dotenv.config();
 
 var cors = require("cors");
 app.use(cors());
 //when body will come in raw (json form) it will be able to read only when we use express.json()
 app.use(express.json());
+app.use("/images", express.static(path.join(__dirname, "/images")));
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,

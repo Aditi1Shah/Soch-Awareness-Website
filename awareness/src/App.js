@@ -11,10 +11,16 @@ import Meditation from "./Components/MentalHealthBlogs/Meditation";
 import Register from "./Register/Register";
 import Physicalfitness from "./Components/PhysicalFitness/Physicalfitness";
 import Login from "./Login/login";
+import Write from "./Write/Write";
 import Home from "./Home";
+import { useContext } from "react";
+import { Context } from "./Context/Context";
+import SinglePost from "./Components/Singleposts/SinglePost";
+
 //import Navbar from "./navbar/Navbar";
 function App() {
-  const user = false;
+  //const user = false;
+  const { user } = useContext(Context);
   return (
     <Router>
       <Topiconbar />
@@ -26,10 +32,12 @@ function App() {
         <Route path="/foodhabbits" element={<Foodhabbits />} />
         <Route path="/mentalhealth" element={<MainMentalhealth />} />
         <Route path="/happylife" element={<HappyLife />} />
-        <Route path="/register" element={user ? <Slider /> : <Register />} />
+        <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/physicalfitness" element={<Physicalfitness />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={user ? <Home /> : <Login />} />
+        <Route path="/write" element={<Write />} />
         <Route path="/meditation" element={<Meditation />} />
+        <Route path="/post/:postId" element={<SinglePost />} />
       </Routes>
     </Router>
   );

@@ -10,4 +10,8 @@ export const LoginFailure = () => ({
   type: "LOGIN_FAILURE",
 });
 
+export const Logut = () => ({
+  type: "LOGOUT",
+});
+
 //To dispatch data and update our state we need Reducer

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 // import axios from "../http";
-import axios from "axios";
+import axios from "../http";
 import "./register.css";
 import WarnModal from "./Warnmodal";
 
