@@ -31,6 +31,11 @@ export default function Topbar() {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
+  const handlePostsClick = (e) => {
+    let path = "/displaypost";
+    navigate(path);
+    e.preventDefault();
+  };
   return (
     <div className="top">
       <div className="topleft">
@@ -46,7 +51,9 @@ export default function Topbar() {
           <li className="toplisticons" onClick={handleWriteClick}>
             Write
           </li>
-          <li className="toplisticons">Blog</li>
+          <li className="toplisticons" onClick={handlePostsClick}>
+            People's Blogs
+          </li>
           <li className="toplisticons">Contact Us</li>
           <li className="toplisticons" onClick={handleLogout}>
             {user && "LOGOUT"}
@@ -55,11 +62,7 @@ export default function Topbar() {
       </div>
       <div className="topright">
         {user ? (
-          <img
-            src="https://1fid.com/wp-content/uploads/2022/07/girl-profile-pic-14-1024x1024.jpg"
-            alt=""
-            className="loginimg"
-          />
+          <img src={user.profilePic} alt="" className="loginimg" />
         ) : (
           <>
             <Button

@@ -6,7 +6,7 @@ export default function Posts({ posts }) {
   return (
     <div className="posts">
       {posts.map((p) => (
-        <DrugAddiction post={p} />
+        <Post post={p} />
       ))}
     </div>
   );

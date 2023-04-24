@@ -1,0 +1,4 @@
+.peopleposts {
+  display: flex;
+  flex-direction: row;
+}

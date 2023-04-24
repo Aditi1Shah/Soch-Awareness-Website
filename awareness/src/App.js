@@ -16,6 +16,7 @@ import Home from "./Home";
 import { useContext } from "react";
 import { Context } from "./Context/Context";
 import SinglePost from "./Components/Singleposts/SinglePost";
+import DisplayPosts from "./Components/DisplayPosts";
 
 //import Navbar from "./navbar/Navbar";
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/write" element={<Write />} />
         <Route path="/meditation" element={<Meditation />} />
         <Route path="/post/:postId" element={<SinglePost />} />
+        <Route path="/displaypost" element={<DisplayPosts />} />
       </Routes>
     </Router>
   );

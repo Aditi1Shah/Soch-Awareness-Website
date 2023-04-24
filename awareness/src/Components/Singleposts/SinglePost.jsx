@@ -20,7 +20,7 @@ export default function SinglePost() {
     const getPost = async () => {
       const res = await axios.get("/posts/" + path);
       setPost(res.data);
-      console.log("data : ", res.data);
+      console.log("data : ", res.data.photo);
       setTitle(res.data.title);
       setDesc(res.data.desc);
     };
@@ -46,7 +46,7 @@ export default function SinglePost() {
       setUpdateMode(false);
     } catch (err) {}
   };
-
+  console.log("photo", post.photo);
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
