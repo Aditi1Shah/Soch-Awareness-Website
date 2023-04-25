@@ -3,5 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
-  background-color: rgb(186, 232, 182);
+  margin-top: 40px;
+  background-color: rgb(222 219 236);
+  justify-content: center;
 }

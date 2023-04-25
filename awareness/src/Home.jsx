@@ -3,7 +3,9 @@ import "./home.css";
 import Mentalblog from "./Components/HomeSubComponents/Mentalblog";
 import Slider from "./ImageSlider/Slider";
 import DrugAddiction from "./Components/HomeSubComponents/DrugAddiction";
-
+import TextAnimationPosts from "./TextAnimationPosts";
+import WeddingTrauma from "./Components/HomeSubComponents/WeddingTrauma";
+import doctor from "./doctorimg.png";
 // import { useState, useEffect } from "react";
 // import { useLocation } from "react-router-dom";
 // import axios from "./http";
@@ -27,9 +29,18 @@ export default function Home() {
     <div>
       <Slider />
       {/* <Posts posts={posts} /> */}
+      <div className="aboutUs">
+        <h2 className="about">ABOUT US </h2>
+        <img className="imgdoc" src={doctor} alt="" />
+      </div>
+
+      <div className="postsheading">
+        <TextAnimationPosts />
+      </div>
       <div className="peopleposts">
         <Mentalblog />
         <DrugAddiction />
+        <WeddingTrauma />
       </div>
     </div>
   );

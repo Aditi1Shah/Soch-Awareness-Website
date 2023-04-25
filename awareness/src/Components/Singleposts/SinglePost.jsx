@@ -20,7 +20,6 @@ export default function SinglePost() {
     const getPost = async () => {
       const res = await axios.get("/posts/" + path);
       setPost(res.data);
-      console.log("data : ", res.data.photo);
       setTitle(res.data.title);
       setDesc(res.data.desc);
     };
@@ -38,11 +37,12 @@ export default function SinglePost() {
 
   const handleUpdate = async () => {
     try {
-      await axios.put(`/post/${post._id}`, {
+      await axios.put(`/posts/${post._id}`, {
         username: user.username,
-        title,
-        desc,
+        title: title,
+        desc: desc,
       });
+      window.location.reload();
       setUpdateMode(false);
     } catch (err) {}
   };

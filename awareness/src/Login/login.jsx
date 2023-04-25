@@ -9,11 +9,6 @@ export default function Login() {
   const { user, dispatch, isFetching } = useContext(Context);
 
   const navigate = useNavigate();
-  const handleRegister = (e) => {
-    let path = "/register";
-    navigate(path);
-    e.preventDefault();
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -53,9 +48,6 @@ export default function Login() {
           Login
         </button>
       </form>
-      <button className="loginRegisterButton" onClick={handleRegister}>
-        Register
-      </button>
     </div>
   );
 }

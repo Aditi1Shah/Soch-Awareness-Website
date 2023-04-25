@@ -46,7 +46,7 @@ export default function Topbar() {
           <li className="toplisticons" onClick={handlehomeclick}>
             Home
           </li>
-          <li className="toplisticons">What We Do</li>
+
           <li className="toplisticons">About Us</li>
           <li className="toplisticons" onClick={handleWriteClick}>
             Write

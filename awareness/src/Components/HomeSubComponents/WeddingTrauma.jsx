@@ -7,10 +7,10 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 
-export default function Mentalblog() {
+export default function WeddingTrauma() {
   const navigate = useNavigate();
   const handlebuttonclick = (e) => {
-    let path = "/post/6448349c00b0303090bc7e1a";
+    let path = "post/64483eaa00b0303090bc7e2f";
     navigate(path);
     e.preventDefault();
   };
@@ -18,16 +18,16 @@ export default function Mentalblog() {
     <Card sx={{ maxWidth: 345, marginTop: 5, marginLeft: 5 }}>
       <CardMedia
         sx={{ height: 256 }}
-        image="https://s3.envato.com/files/239866139/IMG_9420.jpg"
-        title="Mnetal Health"
+        image="https://thumbs.dreamstime.com/b/diamond-wedding-ring-given-groom-to-bride-asian-malay-ceremony-62582675.jpg"
+        title="Wedding"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Rohan's Story
+          Mishka's Story
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Rohan struggled with peer pressure and suicidal thoughts from years.
-          SOCH helped him get out of his trauma.
+          Mishka was struggling to come out of a relationship.Read on to find
+          how Mishka pvercamed an abusive marriage.
         </Typography>
       </CardContent>
       <CardActions>
