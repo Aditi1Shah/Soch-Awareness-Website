@@ -9,16 +9,16 @@ export default function Mentalhealthsecond() {
     e.preventDefault();
   };
   return (
-    <div className="post">
+    <div className="postMental">
       <img
         src="https://chopra.brightspotcdn.com/ba/5b/a4e607054e908c357b72c88d4102/7fbroqcg.jpeg"
         alt=""
         className="photo"
         onClick={handleimgscndclick}
       />
-      <div className="postinfo">
-        <span className="posttitle">The Power of Meditation </span>
-        <p className="postDesc">
+      <div className="postinfoMental">
+        <span className="posttitleMental">The Power of Meditation </span>
+        <p className="postDescMental">
           Brilliant things happen in calm minds. Meditation is not about having
           yet another new strategy of self-help plan, but rather providing a
           framework in which to see yourself more clearly

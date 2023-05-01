@@ -36,6 +36,11 @@ export default function Topbar() {
     navigate(path);
     e.preventDefault();
   };
+  const handleaboutclick = (e) => {
+    let path = "/aboutus";
+    navigate(path);
+    e.preventDefault();
+  };
   return (
     <div className="top">
       <div className="topleft">
@@ -47,7 +52,9 @@ export default function Topbar() {
             Home
           </li>
 
-          <li className="toplisticons">About Us</li>
+          <li className="toplisticons" onClick={handleaboutclick}>
+            About Us
+          </li>
           <li className="toplisticons" onClick={handleWriteClick}>
             Write
           </li>

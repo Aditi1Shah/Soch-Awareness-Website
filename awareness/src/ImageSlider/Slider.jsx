@@ -77,6 +77,10 @@ const InfoContainer = styled.div`
 const Slider = () => {
   const navigate = useNavigate();
   const handleButtonClick = (key) => {
+    if (key === 1) {
+      let path = "/drugaddiction";
+      navigate(path);
+    }
     if (key === 2) {
       let path = "/physicalfitness";
       navigate(path);

@@ -17,6 +17,14 @@ import { useContext } from "react";
 import { Context } from "./Context/Context";
 import SinglePost from "./Components/Singleposts/SinglePost";
 import DisplayPosts from "./Components/DisplayPosts";
+import MainDrugAddiction from "./Components/DrugAddictionMain/MainDrugAddiction";
+import AboutUs from "./Components/AboutUs/AboutUs";
+import Gitashlokaspage from "./Components/GitaShloks/Gitashlokaspage";
+import Angerpage from "./Components/GitaShloks/PagesGita/Angerpage";
+import Demotivated from "./Components/GitaShloks/PagesGita/Demotivated";
+import Discriminationpage from "./Components/GitaShloks/PagesGita/Discriminationpage";
+import Confusionpage from "./Components/GitaShloks/PagesGita/Confusionpage";
+import DeathOfLovedOne from "./Components/GitaShloks/PagesGita/DeathOfLovedOne";
 
 //import Navbar from "./navbar/Navbar";
 function App() {
@@ -36,10 +44,18 @@ function App() {
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/physicalfitness" element={<Physicalfitness />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
-        <Route path="/write" element={<Write />} />
+        <Route path="/write" element={user ? <Write /> : <Login />} />
         <Route path="/meditation" element={<Meditation />} />
         <Route path="/post/:postId" element={<SinglePost />} />
         <Route path="/displaypost" element={<DisplayPosts />} />
+        <Route path="/drugaddiction" element={<MainDrugAddiction />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/gitapage" element={<Gitashlokaspage />} />
+        <Route path="/angerpage" element={<Angerpage />} />
+        <Route path="/demotivatedpage" element={<Demotivated />} />
+        <Route path="/discriminationdpage" element={<Discriminationpage />} />
+        <Route path="/confusionpage" element={<Confusionpage />} />
+        <Route path="/deathoflovedpage" element={<DeathOfLovedOne />} />
       </Routes>
     </Router>
   );

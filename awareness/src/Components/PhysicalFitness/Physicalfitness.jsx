@@ -1,5 +1,5 @@
 import React from "react";
-// import "./stylee.css";
+import "./stylee.css";
 import doct3 from "./img/doctor3.png";
 import activity1 from "./img/activity1.png";
 import activity2 from "./img/activity2.png";
@@ -11,7 +11,7 @@ export default function Physicalfitness() {
   return (
     <div className="hero">
       <div className="hero-div">
-        <div className="hero container flex">
+        <div className="container">
           <div className="left-hero">
             <h1>Physical Fitness</h1>
             <p>

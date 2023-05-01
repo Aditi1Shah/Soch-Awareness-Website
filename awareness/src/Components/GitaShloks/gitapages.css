@@ -1,0 +1,17 @@
+.Gitapagediv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #d2f2ff;
+}
+.mainhead {
+  text-align: center;
+  /* font-family: Macondo; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.maindivpage {
+  margin-bottom: 20px;
+  background-color: #fffce4;
+  color: purple;
+}

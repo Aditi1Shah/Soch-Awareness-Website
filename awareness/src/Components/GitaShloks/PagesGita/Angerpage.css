@@ -1,0 +1,39 @@
+.text-on-image {
+  position: absolute;
+  font-family: Noto Sans;
+  font-size: 22px;
+  color: #4e0363;
+  font-weight: 900;
+  cursor: pointer;
+  text-align: center;
+}
+.head-image {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.head-text {
+  position: relative;
+}
+.Maindiv {
+  text-align: center;
+}
+.imagemain {
+  width: 100%;
+  height: 920px;
+  opacity: 0.4;
+}
+.mainheading {
+  font-family: Macondo;
+  margin-bottom: 15px;
+}
+.para {
+  text-align: center;
+  font-size: 18px;
+  font-family: Alkatra;
+  font-weight: 500;
+}
+.shlokanumberheading {
+  font-family: Macondo;
+  margin-bottom: 15px;
+  color: #000000;
+}

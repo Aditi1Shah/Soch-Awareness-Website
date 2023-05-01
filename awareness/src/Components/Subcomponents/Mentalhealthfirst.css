@@ -1,4 +1,4 @@
-.post {
+.postMental {
   background-color: #bdcbd8;
   width: 476px;
   margin: 0px -59px 6px -17px;
@@ -13,13 +13,13 @@
   cursor: pointer;
 }
 
-.postinfo {
+.postinfoMental {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0px 40px;
 }
-.postDesc {
+.postDescMental {
   font-size: 18px;
   font-family: Cedarville cursive;
   overflow: hidden;
@@ -34,7 +34,7 @@
   margin: 13px 40px;
   font-weight: 600;
 }
-.posttitle {
+.posttitleMental {
   align-items: center;
   margin: -19px 52px;
   font-size: 21px;

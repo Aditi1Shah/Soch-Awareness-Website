@@ -18,15 +18,36 @@
 }
 .imgdoc {
   margin-top: 20px;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
 .about {
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 30px;
   margin-right: 10px;
+  font-family: Amatic SC;
 }
 .aboutUs {
   display: flex;
   justify-content: center;
+}
+.head-text {
+  position: relative;
+}
+.text-on-image {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  font-family: Port Lligat Slab;
+  font-size: 24px;
+  color: #450b55;
+  font-weight: 700;
+  cursor: pointer;
+}
+.head-image {
+  width: 100%;
+  height: 320px;
+  opacity: 0.6;
+  cursor: pointer;
 }

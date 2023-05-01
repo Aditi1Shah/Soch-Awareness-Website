@@ -1,6 +1,5 @@
 //import mongoose
 const mongoose = require("mongoose");
-
 //create a user schema
 const PostSchema = new mongoose.Schema(
   {
@@ -25,6 +24,5 @@ const PostSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
 //export the mongoose model and pass your schema
 module.exports = mongoose.model("Post", PostSchema);

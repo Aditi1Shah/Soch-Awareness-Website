@@ -2,10 +2,15 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
-.flex {
+/* .flex {
+  display: flex;
+  align-items: center;
+} */
+
+.hero {
   display: flex;
   align-items: center;
 }
@@ -76,7 +81,12 @@
   font-size: 20px;
 }
 
-.div-doctor-advice {
+.doctor-advice {
+  display: flex;
+  align-items: center;
+}
+
+.section-doctor-advice {
   background-color: #245953;
 }
 
@@ -113,6 +123,7 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .activity-img-left {
   flex: 1;
   width: 100%;
@@ -150,5 +161,5 @@
 }
 #activityImg img {
   width: 350px;
-  height: auto;
+   height: auto;
 }
