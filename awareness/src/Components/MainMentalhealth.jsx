@@ -6,7 +6,7 @@ import Mentalhealththird from "./Subcomponents/Mentalhealththird";
 import "./MainMentalhealth.css";
 export default function MainMentalhealth() {
   return (
-    <div className="posts">
+    <div className="postss">
       <Mentalhealth />
       <br />
       <Mentalhealthfirst />

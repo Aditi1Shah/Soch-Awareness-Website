@@ -49,7 +49,7 @@ export default function Home() {
             onClick={handleaboutclick}
           />
         </div>
-        <div class="text-on-image">
+        <div class="text-on-imagee">
           <p>
             Soch is a website that aims to raise awareness about various social
             and environmental issues that affect our lives and our planet. Soch

@@ -1,13 +1,13 @@
 .postpostMental {
   background-color: #bdcbd8;
-  width: 476px;
-  margin: 0px 25px 40px 0px;
+  width: 444px;
+  margin: 39px 25px 40px 0px;
 }
 
 .photo {
   width: 354px;
   height: 225px;
-  margin: 27px 83px;
+  margin: 27px 62px;
   object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
