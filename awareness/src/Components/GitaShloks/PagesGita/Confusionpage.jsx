@@ -14,6 +14,9 @@ function Confusionpage() {
         <div className="text-on-image">
           <h1 className="mainheading">Shloka</h1>
           <h2 className="shlokanumberheading">Chapter 18 Shloka 61</h2>
+          <p>ईश्वर: सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति ।</p>
+          <p>भ्रामयन्सर्वभूतानि यन्‍त्रारूढानि मायया ॥ </p>
+          <br />
           <p>īśvaraḥ sarva-bhūtānāṁ</p>
           <p>hṛd-deśe ’rjuna tiṣṭhati</p>
           <p>bhrāmayan sarva-bhūtāni</p>

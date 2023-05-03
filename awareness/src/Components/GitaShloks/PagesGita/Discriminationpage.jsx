@@ -14,6 +14,9 @@ function Discriminationpage() {
         <div className="text-on-image">
           <h1 className="mainheading">Shloka</h1>
           <h2 className="shlokanumberheading">Chapter 6 Shloka 32</h2>
+          <p>आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन |</p>
+          <p>सुखं वा यदि वा दु:खं स योगी परमो मत: ||</p>
+          <br />
           <p>ātmaupamyena sarvatra</p>
           <p>samaṁ paśyati yo ’rjuna</p>
           <p>sukhaṁ vā yadi vā duḥkhaṁ</p>

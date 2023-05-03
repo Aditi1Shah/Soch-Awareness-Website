@@ -19,7 +19,7 @@ export default function Mentalhealththird() {
       <div className="postinfoMental">
         <span className="posttitleMental">Mind Healing and counselling</span>
         <p className="postDescMental">
-          Bhagwat Gita has a solution for every problem. There are numerous
+          Bhagavad Gita has a solution for every problem. There are numerous
           shlokas for every kind of mental stress and problem.
         </p>
       </div>

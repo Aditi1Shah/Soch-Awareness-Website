@@ -13,6 +13,12 @@ function Demotivated() {
         </div>
         <div className="text-on-image">
           <h1 className="mainheading">Shloka</h1>
+          <h2 className="shlokanumberheading">Chapter 11 Shloka 33</h2>
+          <p>तस्मात्त्वमुत्तिष्ठ यशो लभस्व</p>
+          <p>जित्वा शत्रून्भुङ् क्ष्व राज्यं समृद्धम् |</p>
+          <p>मयैवैते निहता: पूर्वमेव</p>
+          <p>निमित्तमात्रं भव सव्यसाचिन् || </p>
+          <br />
           <p>tasmāt tvam uttiṣṭha yaśo labhasva</p>
           <p>jitvā śatrūn bhuṅkṣva rājyaṁ samṛddham</p>
           <p>mayaivaite nihatāḥ pūrvam eva</p>

@@ -14,6 +14,9 @@ function DeathOfLovedOne() {
         <div className="text-on-image">
           <h1 className="mainheading">Shloka</h1>
           <h2 className="shlokanumberheading">Chapter 2 Shloka 13</h2>
+          <p>देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा |</p>
+          <p>तथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||</p>
+          <br />
           <p>dehino ’smin yathā dehe</p>
           <p>kaumāraṁ yauvanaṁ jarā</p>
           <p>tathā dehāntara-prāptir</p>

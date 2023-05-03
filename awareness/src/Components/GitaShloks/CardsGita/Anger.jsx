@@ -26,7 +26,9 @@ export default function Anger() {
           Anger
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          There are some Gita Shlokas to help with anger management.
+          There are some Gita Shlokas to help with Anger. There are stories of
+          Mahabharata which help you overcome your problems with similar
+          instances
         </Typography>
       </CardContent>
       <CardActions>

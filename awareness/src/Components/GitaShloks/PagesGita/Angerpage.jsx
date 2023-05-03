@@ -13,6 +13,10 @@ function Angerpage() {
         </div>
         <div className="text-on-image">
           <h1 className="mainheading">Shloka</h1>
+          <h2 className="shlokanumberheading">Chapter 2 Shloka 56</h2>
+          <p>दु:खेष्वनुद्विग्नमना: सुखेषु विगतस्पृह: |</p>
+          <p>वीतरागभयक्रोध: स्थितधीर्मुनिरुच्यते || </p>
+          <br />
           <p>duḥkheṣv anudvigna-manāḥ</p>
           <p>sukheṣu vigata-spṛhaḥ</p>
           <p>vīta-rāga-bhaya-krodhaḥ</p>
