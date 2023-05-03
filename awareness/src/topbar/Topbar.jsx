@@ -41,6 +41,12 @@ export default function Topbar() {
     navigate(path);
     e.preventDefault();
   };
+  const handleShlokaClick = (e) => {
+    let path = "/gitapage";
+    navigate(path);
+    e.preventDefault();
+  };
+
   return (
     <div className="top">
       <div className="topleft">
@@ -61,7 +67,9 @@ export default function Topbar() {
           <li className="toplisticons" onClick={handlePostsClick}>
             People's Blogs
           </li>
-          <li className="toplisticons">Contact Us</li>
+          <li className="toplisticons" onClick={handleShlokaClick}>
+            Gita Shlokas
+          </li>
           <li className="toplisticons" onClick={handleLogout}>
             {user && "LOGOUT"}
           </li>
